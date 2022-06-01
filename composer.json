@@ -1,0 +1,26 @@
+{
+    "name": "sylius/shared-kernel",
+    "description": "A set of contracts, commands, events and exceptions for making integration between plugins as easy as possible with minimum level of coupling.",
+    "keywords": [
+        "sylius",
+        "sylius-plugin",
+        "sylius-plus",
+        "decoupling",
+        "contracts"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "sylius/channel-bundle": "^1.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sylius\\SharedKernel\\": ""
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/thanks": true
+        }
+    }
+}
