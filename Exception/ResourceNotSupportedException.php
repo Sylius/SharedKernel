@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\Sharedkernel\Exception;
+namespace Sylius\SharedKernel\Exception;
 
 final class ResourceNotSupportedException extends \Exception
 {
