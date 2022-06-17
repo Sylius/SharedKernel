@@ -11,7 +11,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "sylius/channel-bundle": "^1.11"
+        "sylius/channel-bundle": "^1.11",
+        "sylius/core-bundle": "^1.11",
     },
     "autoload": {
         "psr-4": {
